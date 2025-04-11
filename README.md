@@ -1,4 +1,10 @@
 # 🛡️ YouTube Spam Detector: Business-Ready ML for Content Moderation
+<p align="center">
+  <strong>Elie LAFORGE, Yunan WANG</strong><br>
+  Albert School – 2024
+</p>
+
+
 
 This repository presents a complete end-to-end machine learning solution to detect **spam comments on YouTube**, using supervised learning techniques and NLP. The goal is to **protect digital spaces**, **reduce moderation burden**, and **enhance user trust** through automated, scalable solutions.
 
@@ -24,14 +30,14 @@ As video platforms like YouTube grow, **spam comments have become a real threat*
 
 ## 📦 Dataset
 
-- Source: Kaggle – “YouTube Spam Collection” dataset  
-- Structure: 5,000+ manually labeled comments  
+- Source: Kaggle – “YouTube Spam Collection” dataset & 5000 YT comments
+- Structure: 7,000+ labeled comments  
 - Target variable: `CLASS` (1 = Spam, 0 = Not Spam)  
 - Columns: `comment_id`, `author`, `date`, `content`, `video_id`, `CLASS`
 
 The dataset was relatively balanced:  
 - **Spam**: 48.6%  
-- **Not Spam**: 51.4%&#8203;:contentReference[oaicite:0]{index=0}
+- **Not Spam**: 51.4%
 
 ---
 
@@ -42,7 +48,7 @@ Key patterns found in spam comments:
 - Frequent use of words like “check”, “subscribe”, “video”, “channel”, “new mixtape”  
 - High presence of promotional or deceptive keywords
 
-Word cloud analysis revealed repetitive promotional language, ideal for machine learning classification&#8203;:contentReference[oaicite:1]{index=1}.
+Word cloud analysis revealed repetitive promotional language, ideal for machine learning classification.
 
 ---
 
@@ -73,7 +79,7 @@ After hyperparameter tuning, **XGBoost** delivered the highest performance:
 - **Accuracy**: 95%
 - **F1-Score**: 95%
 - **ROC-AUC**: 0.98  
-- **Confusion Matrix**: True positive detection was very strong (500 spam comments correctly identified)&#8203;:contentReference[oaicite:2]{index=2}
+- **Confusion Matrix**: True positive detection was very strong (500 spam comments correctly identified)
 
 ---
 
