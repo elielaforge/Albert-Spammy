@@ -1,4 +1,4 @@
-# 🛡️ YouTube Spam Detector: Business-Ready ML for Content Moderation
+<h1 align="center"> YouTube Spam Detector: Business-Ready ML for Content Moderation</h1>
 <p align="center">
   <strong>Elie LAFORGE, Yunan WANG</strong><br>
   Albert School – 2024
